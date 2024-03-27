@@ -18,4 +18,4 @@ for i in range(len(f)): # генератор паролей
 f1 = open("space_uniq_password.csv", 'w')
 f1.write("password \n")
 for i in range(len(q)):
-    f1.write(q[i] + ' ')
+    f1.write(q[i] + '\n')
